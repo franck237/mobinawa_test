@@ -6,6 +6,6 @@ FactoryBot.define do
     lastname { "KAMANOU" }
     function { "CEO" }
     email { "fokamanou@gts-infotel.com" }
-    country { nil }
+    country { FactoryBot.create(:country) }
   end
 end
