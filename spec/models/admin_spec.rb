@@ -56,7 +56,7 @@ before(:each) do
       end
 
       it "should return the full name" do
-        expect(@admin.fullname).to eq("Franck KAMANOU")
+        expect(@admin.fullname).to eq("#{@admin.firstname} #{@admin.lastname}")
         user_2 = create(:admin, firstname: "Yvon", lastname: "EKWALLA", email: "eya@gmail.com")
         expect(user_2.fullname).to eq("Yvon EKWALLA")
       end
