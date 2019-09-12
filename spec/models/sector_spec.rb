@@ -34,5 +34,4 @@ RSpec.describe Sector, type: :model do
     end
 
   end
-
 end

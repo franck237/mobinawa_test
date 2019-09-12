@@ -30,5 +30,4 @@ RSpec.describe SubSector, type: :model do
     end
 
   end
-
 end
