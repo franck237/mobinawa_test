@@ -8,7 +8,7 @@ presence: true
 validates :name,
 presence: true
 
-#Description validation: it is mendatory to have an email for a Company
+#Description validation: it is mendatory to have a description for a Company
 validates_length_of :description, minimum: 10
 
 #Date validation: it is mendatory to have a creation date for a Company
