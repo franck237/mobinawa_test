@@ -51,6 +51,9 @@ end
     describe "sub_sector" do
       it { expect(@company).to belong_to(:sub_sector) }
     end   
+    describe "products" do
+      it { expect(@company).to have_many(:products) }
+    end
 
   end
 

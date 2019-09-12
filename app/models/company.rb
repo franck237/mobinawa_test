@@ -23,4 +23,5 @@ validates :status, inclusion: { in: [ 0, 1, 2 ] }
   belongs_to :sub_sector
   belongs_to :admin
   belongs_to :country
+  has_many :products
 end
