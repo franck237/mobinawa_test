@@ -6,6 +6,7 @@ FactoryBot.define do
     lastname { Faker::Name.last_name }
     function { "CEO" }
     email { Faker::Internet.email }
-    country_id { nil }
+    country { FactoryBot.create(:country) }
+
   end
 end
