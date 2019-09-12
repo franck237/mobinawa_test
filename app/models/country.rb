@@ -25,3 +25,4 @@ class Country < ApplicationRecord
 	has_many :admins
 	has_many :companies
 end
+
