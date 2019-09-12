@@ -28,10 +28,6 @@ end
       it { expect(@company).to validate_length_of(:description).is_at_least(10)}
     end
 
-    describe "#date" do
-      it { expect(@company).to validate_presence_of(:date) }
-    end
-
     describe "#status" do
       it { expect(@company).to validate_inclusion_of(:status).in_array([0, 1, 2]) }
     end

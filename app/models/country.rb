@@ -3,7 +3,7 @@ class Country < ApplicationRecord
 	#Code validation: it is mendatory to have a code  with a length between 1 and 3
 	validates :code,
 	presence: true,
-    length: { in: 1..3 }
+    length: { in: 1..4 }
 
 	#name validation: it is mendatory to have a name for a Country
 	validates :name,

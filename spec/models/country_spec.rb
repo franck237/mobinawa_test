@@ -25,7 +25,7 @@ end
     end
 
     describe "#code" do
-      it { expect(@country).to validate_length_of(:code).is_at_least(1).is_at_most(3) }
+      it { expect(@country).to validate_length_of(:code).is_at_least(1).is_at_most(4) }
     end
 
     describe "#status" do

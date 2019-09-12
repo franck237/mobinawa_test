@@ -11,10 +11,6 @@ presence: true
 #Description validation: it is mendatory to have a description for a Company
 validates_length_of :description, minimum: 10
 
-#Date validation: it is mendatory to have a creation date for a Company
-validates :date,
-presence: true
-
 #Status validation: it is mendatory to have a status for a Company
 validates :status, inclusion: { in: [ 0, 1, 2 ] }
 

@@ -68,3 +68,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'faker'
+
+# Reset index for the seed
+gem 'activerecord-reset-pk-sequence'
+
+gem 'table_print'
